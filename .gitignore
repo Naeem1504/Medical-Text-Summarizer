@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.medtext_env/
+.conda/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data (do not push raw datasets to GitHub)
+data/
+!data/README.md   # keep the README but ignore real datasets
+
+# VS Code settings
+.vscode/
