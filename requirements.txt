@@ -1,0 +1,23 @@
+# Core Python dependencies
+numpy
+pandas
+
+# NLP & Machine Learning
+scikit-learn
+nltk
+spacy
+transformers
+torch
+
+# Summarization / Hugging Face models
+sentencepiece
+datasets
+
+# Jupyter & development tools
+jupyter
+notebook
+
+# Utility
+tqdm
+matplotlib
+seaborn
