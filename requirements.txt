@@ -21,3 +21,9 @@ notebook
 tqdm
 matplotlib
 seaborn
+streamlit>=1.18
+transformers>=4.30
+torch>=1.13
+sentencepiece
+huggingface_hub
+regex
