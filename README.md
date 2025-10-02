@@ -2,8 +2,20 @@
 
 ## 📌 Project Overview
 
+![App screenshot](assets/screenshot_app_home.png)
+
 The **Medical Text Summarizer** is an NLP-based project that takes long clinical notes or discharge summaries and generates concise, readable summaries.
 This helps doctors, nurses, and patients quickly understand key medical information.
+
+---
+
+## Quick demo
+- Paste a clinical note and click **Summarize**.  
+- Example input → output screenshot:  
+![Input vs Output](assets/screenshot_input_vs_output.png)
+
+
+---
 
 ## 🎯 Goal
 
