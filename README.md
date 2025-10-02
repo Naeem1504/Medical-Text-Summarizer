@@ -124,3 +124,19 @@ pip install -r requirements.txt
 export MODEL_SOURCE="Naeem92/medtext-bart-finetuned"   # macOS/Linux
 setx MODEL_SOURCE "Naeem92/medtext-bart-finetuned"     # Windows (restart terminal)
 python -m streamlit run app.py
+
+## Contact
+
+**Naeem — AI/ML Engineer**
+
+- GitHub: [github.com/Naeem1504](https://github.com/Naeem1504)  
+- Hugging Face (model): [huggingface.co/Naeem92](https://huggingface.co/Naeem92)  
+- LinkedIn: [linkedin.com/in/naeem92](https://linkedin.com/in/naeem92)  
+- Email: [naeem.ip92@gmail.com](naeem.ip92@gmail.com) 
+
+_This demo is for educational purposes only and not for clinical use._
+
+
+[![GitHub](https://img.shields.io/badge/GitHub-Naeem1504-181717?logo=github)](https://github.com/Naeem1504)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-model-orange?logo=huggingface)](https://huggingface.co/Naeem92)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-blue?logo=linkedin)](https://linkedin.com/in/naeem92)
