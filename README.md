@@ -16,8 +16,8 @@ This helps doctors, nurses, and patients quickly understand key medical informat
 ## ⚙️ Tech Stack
 
 * **Python** (3.10)
-* **NLP & Transformers** → BART, T5, scispaCy
-* **Dataset** → MIMIC-III Discharge Summaries
+* **NLP & Transformers** → Fine-tuned `facebook/bart-large-cnn`, T5, scispaCy
+* **Dataset** → (Hugging Face `ccdv/pubmed-summarization`)
 * **Frontend** → Streamlit / Flask
 * **Version Control** → Git & GitHub
 
@@ -79,7 +79,8 @@ Medical-Text-Summarizer/
 
 ## 📖 Dataset
 
-This project uses **MIMIC-III clinical notes** (restricted access).
+This project uses PubMed / clinical notes (training & evaluation)
+You can use **MIMIC-III clinical notes** (restricted access).
 👉 You must request access via [PhysioNet](https://physionet.org/content/mimiciii/1.4/) to use this dataset.
 
 ---
@@ -98,3 +99,16 @@ Pull requests are welcome!
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
+---
+
+## How to run locally
+```bash
+git clone https://github.com/<your-username>/Medical-Text-Summarizer.git
+cd Medical-Text-Summarizer
+conda activate medtext
+pip install -r requirements.txt
+# set env var to your model on HF (optional)
+export MODEL_SOURCE="your-username/medtext-bart-finetuned"   # macOS/Linux
+setx MODEL_SOURCE "your-username/medtext-bart-finetuned"     # Windows (restart terminal)
+python -m streamlit run app.py
