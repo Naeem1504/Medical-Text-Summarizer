@@ -104,11 +104,11 @@ This project is licensed under the **MIT License**.
 
 ## How to run locally
 ```bash
-git clone https://github.com/<your-username>/Medical-Text-Summarizer.git
+git clone https://github.com/<Naeem1504>/Medical-Text-Summarizer.git
 cd Medical-Text-Summarizer
 conda activate medtext
 pip install -r requirements.txt
 # set env var to your model on HF (optional)
-export MODEL_SOURCE="your-username/medtext-bart-finetuned"   # macOS/Linux
-setx MODEL_SOURCE "your-username/medtext-bart-finetuned"     # Windows (restart terminal)
+export MODEL_SOURCE="Naeem92/medtext-bart-finetuned"   # macOS/Linux
+setx MODEL_SOURCE "Naeem92/medtext-bart-finetuned"     # Windows (restart terminal)
 python -m streamlit run app.py
