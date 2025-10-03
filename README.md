@@ -12,6 +12,7 @@ This helps doctors, nurses, and patients quickly understand key medical informat
 ## Quick demo
 - Paste a clinical note and click **Summarize**.  
 - Example input → output screenshot:  
+
 ![Input vs Output](assets/screenshot_input_vs_output.png)
 
 
@@ -120,10 +121,13 @@ git clone https://github.com/<Naeem1504>/Medical-Text-Summarizer.git
 cd Medical-Text-Summarizer
 conda activate medtext
 pip install -r requirements.txt
+```
 # set env var to your model on HF (optional)
 export MODEL_SOURCE="Naeem92/medtext-bart-finetuned"   # macOS/Linux
 setx MODEL_SOURCE "Naeem92/medtext-bart-finetuned"     # Windows (restart terminal)
 python -m streamlit run app.py
+
+
 
 ## Contact
 
@@ -136,7 +140,10 @@ python -m streamlit run app.py
 
 _This demo is for educational purposes only and not for clinical use._
 
+---
 
 [![GitHub](https://img.shields.io/badge/GitHub-Naeem1504-181717?logo=github)](https://github.com/Naeem1504)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-model-orange?logo=huggingface)](https://huggingface.co/Naeem92)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-blue?logo=linkedin)](https://linkedin.com/in/naeem92)
+
+---
