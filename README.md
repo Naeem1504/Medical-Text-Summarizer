@@ -135,8 +135,7 @@ python -m streamlit run app.py
 
 - GitHub: [github.com/Naeem1504](https://github.com/Naeem1504)  
 - Hugging Face (model): [huggingface.co/Naeem92](https://huggingface.co/Naeem92)  
-- LinkedIn: [linkedin.com/in/naeem92](https://linkedin.com/in/naeem92)  
-- Email: [naeem.ip92@gmail.com](naeem.ip92@gmail.com) 
+- LinkedIn: [linkedin.com/in/naeem92](https://linkedin.com/in/naeem92)
 
 _This demo is for educational purposes only and not for clinical use._
 
